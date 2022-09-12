@@ -38,6 +38,18 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 1.75rem;
+  letter-spacing: 2px;
+}
+.navbar .navbar-brand span {
+  color: #e1b788;
+  font-size: 2rem;
+}
+.navbar .navbar-brand img {
+  width: 50%;
+}
 .navbar .toggler {
   background: transparent;
   padding: 5px 15px;
@@ -334,6 +346,7 @@ body {
 }
 #projects .project-wrap .inner-projects .row-project-box .col-project-box .project-box:hover {
   background: #e1b788;
+  border-color: #e1b788;
 }
 #projects .project-wrap .inner-projects .row-project-box .col-project-box .project-box:hover .project-box-inner h4 {
   color: #0b0c10;
@@ -774,7 +787,7 @@ body {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1110px;
+    max-width: 1110px !important;
   }
 }
 @media (min-width: 768px) {
@@ -784,5 +797,18 @@ body {
   #projects .project-wrap .inner-projects .row-project-box .col-project-box .project-box .project-box-inner .project-category {
     position: absolute;
     bottom: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  #about {
+    background-color: #0b0c10;
+  }
+  #about .inner-about .experience-block {
+    margin: 0px auto;
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+  #about .inner-about .elementor-widget {
+    margin: 0px auto;
   }
 }
