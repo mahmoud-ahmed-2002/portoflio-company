@@ -819,4 +819,12 @@ body {
   #about .inner-about .elementor-widget {
     margin: 0px auto;
   }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 76%;
+  }
+  .links-fixed {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
